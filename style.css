@@ -13,13 +13,13 @@ html {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: rgb(160, 224, 152);
 }
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #d36d48;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #559bdd;
 }
 
 section {
@@ -124,7 +124,7 @@ section .title::after {
 .navbar.sticky .menu li a:hover {
   color: #559bdd;
 }
-/* menu btn styling */
+
 .menu-btn {
   color: rgb(255, 255, 255);
   font-size: 23px;
@@ -208,7 +208,7 @@ section .title::after {
   color: rgb(20, 140, 220);
   background: none;
 }
-/* about section styling */
+
 .about .title::after {
   content: "And just who is Kyle Abrahams?";
 }
@@ -272,7 +272,7 @@ section .title::after {
 .owl-dot:hover {
   background: rgb(115, 209, 52) !important;
 }
-/* contact section styling */
+
 .contact .title::after {
   content: "";
 }
@@ -367,7 +367,7 @@ section .title::after {
   color: rgb(0, 0, 0);
   background: none;
 }
-/* footer section styling */
+
 footer {
   background: #111;
   padding: 15px 23px;
